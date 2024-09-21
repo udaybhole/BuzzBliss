@@ -3,6 +3,8 @@ import { Link , useNavigate } from "react-router-dom"
 import { SignupInput } from "blogproject"
 import { BACKEND_URL } from "../config"
 import axios from "axios"
+
+
 interface LabelledInputType {
     label: string
     placeholder: string
